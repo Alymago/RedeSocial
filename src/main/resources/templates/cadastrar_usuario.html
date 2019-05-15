@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="adiciona_usuario" method="POST">
+        <table class="table">
+            <tr>
+                <td>Nome: <input type="text" class="form-control" name="nome"/></td>
+            </tr>
+            <tr>
+                <td>E-mail: <input type="text" class="form-control" name="email"/></td>
+            </tr>
+            <tr>
+                <td>Senha: <input type="password" class="form-control" name="senha"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <select class="form-control" name="perfil">
+                        <option value="0">Selecione um tipo de usuário</option>
+                        <option value="">Usuário</option>
+                        <option value="ADMIN">Administrador</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Cadastrar" class="btn btn-success"/></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
